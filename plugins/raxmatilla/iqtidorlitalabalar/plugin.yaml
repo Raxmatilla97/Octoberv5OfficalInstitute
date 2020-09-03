@@ -1,0 +1,6 @@
+plugin:
+    name: 'raxmatilla.iqtidorlitalabalar::lang.plugin.name'
+    description: 'raxmatilla.iqtidorlitalabalar::lang.plugin.description'
+    author: Raxmatilla
+    icon: oc-icon-child
+    homepage: ''
