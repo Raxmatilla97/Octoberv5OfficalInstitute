@@ -134,4 +134,8 @@
   'RainLab\\User\\Components\\Session' => 'plugins\\rainlab\\user\\components\\Session.php',
   'RainLab\\User\\Components\\Account' => 'plugins\\rainlab\\user\\components\\Account.php',
   'RainLab\\User\\Components\\ResetPassword' => 'plugins\\rainlab\\user\\components\\ResetPassword.php',
+  'raxmatilla\\bizhaqimizda\\Controllers\\bannerroyxatlari' => 'plugins\\raxmatilla\\bizhaqimizda\\controllers\\bannerroyxatlari.php',
+  'RainLab\\Translate\\FormWidgets\\MLRepeater' => 'plugins\\rainlab\\translate\\formwidgets\\MLRepeater.php',
+  'raxmatilla\\axborotmakoni\\Controllers\\axborotmakoni' => 'plugins\\raxmatilla\\axborotmakoni\\controllers\\axborotmakoni.php',
+  'RainLab\\Translate\\FormWidgets\\MLRichEditor' => 'plugins\\rainlab\\translate\\formwidgets\\MLRichEditor.php',
 );
