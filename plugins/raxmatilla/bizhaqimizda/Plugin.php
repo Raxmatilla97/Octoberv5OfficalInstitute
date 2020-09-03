@@ -6,9 +6,14 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+             'Raxmatilla\Bizhaqimizda\Components\Bizhaqimizda' => 'BizHaqimizda'
+        ];
     }
+
 
     public function registerSettings()
     {
+      
     }
 }

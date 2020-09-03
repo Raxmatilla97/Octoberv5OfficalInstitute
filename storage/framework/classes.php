@@ -138,4 +138,6 @@
   'RainLab\\Translate\\FormWidgets\\MLRepeater' => 'plugins\\rainlab\\translate\\formwidgets\\MLRepeater.php',
   'raxmatilla\\axborotmakoni\\Controllers\\axborotmakoni' => 'plugins\\raxmatilla\\axborotmakoni\\controllers\\axborotmakoni.php',
   'RainLab\\Translate\\FormWidgets\\MLRichEditor' => 'plugins\\rainlab\\translate\\formwidgets\\MLRichEditor.php',
+  'Raxmatilla\\Bizhaqimizda\\Components\\Bizhaqimizda' => 'plugins\\raxmatilla\\bizhaqimizda\\components\\Bizhaqimizda.php',
+  'RainLab\\Pages\\Classes\\Snippet' => 'plugins\\rainlab\\pages\\classes\\Snippet.php',
 );

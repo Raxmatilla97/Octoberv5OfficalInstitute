@@ -40,8 +40,6 @@ class __TwigTemplate_1c71647171e29fad11b0d4596ae12df1e15761fbc1b5058e13b6bb1e1b6
         // line 3
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("/assets/js/combined.js");
         echo "\"></script>
- 
-    
 
 
 
@@ -69,8 +67,6 @@ class __TwigTemplate_1c71647171e29fad11b0d4596ae12df1e15761fbc1b5058e13b6bb1e1b6
         return new Source("<!-- Javascript -->
 
 <script src=\"{{ '/assets/js/combined.js'|theme }}\"></script>
- 
-    
 
 
 
