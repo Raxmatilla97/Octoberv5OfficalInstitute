@@ -1,7 +1,7 @@
-1599221730a:1:{s:18:"pages/about-us.htm";a:7:{s:8:"fileName";s:18:"pages/about-us.htm";s:7:"content";s:4228:"[viewBag]
+1599282522a:1:{s:18:"pages/about-us.htm";a:7:{s:8:"fileName";s:18:"pages/about-us.htm";s:7:"content";s:4221:"[viewBag]
 
 [BizHaqimizdaComponent]
-units = "imperial"
+id_find = 1
 ==
 <style>
     @media (max-width:980px) {
@@ -86,7 +86,7 @@ units = "imperial"
             </div><!-- row end -->
         </div>
     </section>
-    <!--introduction-section end-->";s:5:"mtime";i:1599209212;s:6:"markup";s:4166:"<style>
+    <!--introduction-section end-->";s:5:"mtime";i:1599281920;s:6:"markup";s:4166:"<style>
     @media (max-width:980px) {
       img#optionalstuff {
         display: none;
@@ -169,4 +169,4 @@ units = "imperial"
             </div><!-- row end -->
         </div>
     </section>
-    <!--introduction-section end-->";s:4:"code";N;s:7:"viewBag";a:0:{}s:21:"BizHaqimizdaComponent";a:1:{s:5:"units";s:8:"imperial";}}}
+    <!--introduction-section end-->";s:4:"code";N;s:7:"viewBag";a:0:{}s:21:"BizHaqimizdaComponent";a:1:{s:7:"id_find";s:1:"1";}}}

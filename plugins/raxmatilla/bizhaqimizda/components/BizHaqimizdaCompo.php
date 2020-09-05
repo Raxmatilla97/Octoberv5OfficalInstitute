@@ -18,30 +18,28 @@ class BizHaqimizdaCompo  extends ComponentBase
    
 
     public function onRun(){
-     $this->bizhaqimizda = BizHaqimizda::all()->take($this->property(''));
+     $this->bizhaqimizda = BizHaqimizda::all()->where('id', $this->property('id_find'));
       
     }
 
    
     public function defineProperties()
     {
-        return [
-            'units' => [
-                'title'             => 'SORTby',
-                'type'              => 'dropdown',
-                'default'           => 'imperial',
-                'placeholder'       => 'Sortirofkalashni tanlang',
-                'options'           => [
-                    'created_at asc'=>"Vaqt bo'yicha tartiblash ASC", 
-                    'created_at desc'=>"Vaqt bo'yicha tartiblash DESC", 
-                    'id asc' => "ID bo'yicha tartiblash ASC",
-                    'id desc' => "ID bo'yicha tartiblash DESC"
-
-                                       ]
-                ],
-                'Nechtaligi' =>
-                [
-
+        return [    
+                
+                // 'display' =>
+                // [
+                //     'title' => 'Nechtaligi',
+                    
+                //     'default' => '1',
+                //     'placeholder' => "Sizga kerakli ko'lamni kiriting"
+                   
+                // ],
+                'id_find' => [
+                    'title'  => "Aniq bir idni kiriting",
+                    'default' => 1,
+                    'placeholder' => "kerakli Id ni kiriting (raqam)",
+                    
                 ]
         ];
     }

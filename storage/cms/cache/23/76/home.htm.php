@@ -1,5 +1,5 @@
 <?php 
-class Cms5f51db2315c73977083027_5e07ce84b88d4c792c8889d71465ccccClass extends Cms\Classes\PageCode
+class Cms5f53194d79e1f173707372_f4ec35426d201bf0a4c2bec1be222bc9Class extends Cms\Classes\PageCode
 {
 public function onStart()
 {

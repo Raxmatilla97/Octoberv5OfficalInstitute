@@ -164,4 +164,7 @@
   'RainLab\\Builder\\Classes\\ComponentHelper' => 'plugins\\rainlab\\builder\\classes\\ComponentHelper.php',
   'RainLab\\Builder\\Classes\\PluginYamlModel' => 'plugins\\rainlab\\builder\\classes\\PluginYamlModel.php',
   'RainLab\\Builder\\Classes\\PluginBaseModel' => 'plugins\\rainlab\\builder\\classes\\PluginBaseModel.php',
+  'Indikator\\Backend\\ReportWidgets\\Cache' => 'plugins\\indikator\\backend\\reportwidgets\\Cache.php',
+  'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins\\rainlab\\translate\\console\\ScanCommand.php',
+  'Vdlp\\Redirect\\Console\\PublishRedirects' => 'plugins\\vdlp\\redirect\\console\\PublishRedirects.php',
 );
