@@ -167,4 +167,11 @@
   'Indikator\\Backend\\ReportWidgets\\Cache' => 'plugins\\indikator\\backend\\reportwidgets\\Cache.php',
   'Rainlab\\Translate\\Console\\ScanCommand' => 'plugins\\rainlab\\translate\\console\\ScanCommand.php',
   'Vdlp\\Redirect\\Console\\PublishRedirects' => 'plugins\\vdlp\\redirect\\console\\PublishRedirects.php',
+  'RainLab\\Sitemap\\Models\\Definition' => 'plugins\\rainlab\\sitemap\\models\\Definition.php',
+  'RainLab\\Builder\\Classes\\MigrationColumnType' => 'plugins\\rainlab\\builder\\classes\\MigrationColumnType.php',
+  'RainLab\\Builder\\Classes\\IconList' => 'plugins\\rainlab\\builder\\classes\\IconList.php',
+  'raxmatilla\\bizhaqimizda\\Controllers\\hisoblagich' => 'plugins\\raxmatilla\\bizhaqimizda\\controllers\\hisoblagich.php',
+  'RainLab\\Builder\\Rules\\Reserved' => 'plugins\\rainlab\\builder\\rules\\Reserved.php',
+  'Raxmatilla\\BizHaqimizda\\Components\\Hisoblagich' => 'plugins\\raxmatilla\\bizhaqimizda\\components\\Hisoblagich.php',
+  'Raxmatilla\\BizHaqimizda\\Components\\HisoblagichCompo' => 'plugins\\raxmatilla\\bizhaqimizda\\components\\HisoblagichCompo.php',
 );

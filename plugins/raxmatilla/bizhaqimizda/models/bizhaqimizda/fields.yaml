@@ -30,7 +30,7 @@ tabs:
     fields:
         text:
             label: 'Asosiy html qismi'
-            size: ''
+            size: giant
             span: full
             placeholder: 'Institut 0‘zbekiston Respublikasi Prezidentining <strong>2017-yil 27-iyuldagi PQ-3152 </strong>sonli <strong>"Toshkent viloyati Chirchiq davlat pedagogika institutini tashkil etish to`g`risida"</strong>gi Qaroriga asosan maktabgacha, maktab va maktabdan tashqari taʼlim muassasalarining tarbiyachilar, boshlanglch sinf ayniqsa aniq fanlar va chet tillari bo‘yicha o''qituvchilarga bo‘lgan ehtiyojlarini qondirish, tumanlar va qishloq joylaridagi taʼlim muassasalarini yuqori malakali pedagog kadrlar bilan ta''minlash hamda xalqaro standartlar darajasiga mos oliy maʼIumotli pedagogik kadrlar tayyorlash tizimini joylarda tashkil etishni yanada takomillashtirish va ta''lim sifatini yaxshilash maqsadida tashkil etildi.'
             required: 1
@@ -44,12 +44,12 @@ tabs:
             attributes:
                 translatable: 'true'
             type: text
-            tab: 'Tab 2'
+            tab: 'Qo''shimchalar'
         qabulhona_tel:
             label: 'Qabulxona telefon'
             span: auto
             type: text
-            tab: 'Tab 2'
+            tab: 'Qo''shimchalar'
         list_key_chap:
             label: 'Qo''shimcha manbalar'
             prompt: 'yangi qo''shish'
@@ -57,7 +57,7 @@ tabs:
             containerAttributes:
                 translatable: 'true'
             type: repeater
-            tab: 'Tab 2'
+            tab: 'Qo''shimchalar'
             form:
                 fields:
                     list_nomi:
@@ -77,7 +77,7 @@ tabs:
             containerAttributes:
                 translatable: 'true'
             type: repeater
-            tab: 'Tab 2'
+            tab: 'Qo''shimchalar'
             form:
                 fields:
                     list_nomi:
