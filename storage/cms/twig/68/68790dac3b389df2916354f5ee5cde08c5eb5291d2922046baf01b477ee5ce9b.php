@@ -60,8 +60,6 @@ class __TwigTemplate_85c764006f60b14cc51569b883f9250276f2a9afcc572c7d47a183b3a80
 
 
 
-
-
 <!-- <style>
 
     .container {
@@ -70,13 +68,8 @@ class __TwigTemplate_85c764006f60b14cc51569b883f9250276f2a9afcc572c7d47a183b3a80
 </style> -->
 
 
-";
-        // line 31
-        $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("BizHaqimizda2"        , $context['__cms_component_params']        );
-        unset($context['__cms_component_params']);
-        // line 32
-        echo "
+
+
 
 </head>";
     }
@@ -93,7 +86,7 @@ class __TwigTemplate_85c764006f60b14cc51569b883f9250276f2a9afcc572c7d47a183b3a80
 
     public function getDebugInfo()
     {
-        return array (  79 => 32,  75 => 31,  58 => 17,  52 => 14,  37 => 1,);
+        return array (  58 => 17,  52 => 14,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -118,8 +111,6 @@ class __TwigTemplate_85c764006f60b14cc51569b883f9250276f2a9afcc572c7d47a183b3a80
 
 
 
-
-
 <!-- <style>
 
     .container {
@@ -128,7 +119,7 @@ class __TwigTemplate_85c764006f60b14cc51569b883f9250276f2a9afcc572c7d47a183b3a80
 </style> -->
 
 
-{% component 'BizHaqimizda2' %}
+
 
 
 </head>", "C:\\laragon\\www\\OctoberLaravelOffical\\Octoberv5OfficalInstitute/themes/vue-institute/partials/general/header.htm", "");

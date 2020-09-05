@@ -1,4 +1,4 @@
-1599144459a:1:{s:22:"pages/blog-section.htm";a:7:{s:8:"fileName";s:22:"pages/blog-section.htm";s:7:"content";s:5728:"[viewBag]
+1599221730a:1:{s:22:"pages/blog-section.htm";a:7:{s:8:"fileName";s:22:"pages/blog-section.htm";s:7:"content";s:5728:"[viewBag]
 
 [newsPosts]
 pageNumber = "{{ :page }}"

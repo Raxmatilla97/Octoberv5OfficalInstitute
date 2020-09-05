@@ -1,4 +1,4 @@
-1599144459a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1340:"description = "Asosiy frontend sahifa maketi"
+1599221730a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1340:"description = "Asosiy frontend sahifa maketi"
 ==
 {% partial 'general/header'%}
 

@@ -1,8 +1,8 @@
-1599144459a:1:{s:18:"general/header.htm";a:8:{s:8:"fileName";s:18:"general/header.htm";s:7:"content";s:908:"description = "Saytning bosh qismi va stillar qismi"
-
-[BizHaqimizda BizHaqimizda2]
+1599221730a:1:{s:18:"general/header.htm";a:8:{s:8:"fileName";s:18:"general/header.htm";s:7:"content";s:891:"description = "Saytning bosh qismi va stillar qismi"
 
 [viewBag]
+
+[BizHaqimizdaComponent BizHaqimizdaComponent2]
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -24,8 +24,6 @@
 
 
 
-
-
 <!-- <style>
 
     .container {
@@ -34,10 +32,10 @@
 </style> -->
 
 
-{% component 'BizHaqimizda2' %}
 
 
-</head>";s:5:"mtime";i:1599143858;s:6:"markup";s:805:"<!DOCTYPE html>
+
+</head>";s:5:"mtime";i:1599207310;s:6:"markup";s:770:"<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,8 +55,6 @@
 
 
 
-
-
 <!-- <style>
 
     .container {
@@ -67,7 +63,7 @@
 </style> -->
 
 
-{% component 'BizHaqimizda2' %}
 
 
-</head>";s:4:"code";N;s:11:"description";s:36:"Saytning bosh qismi va stillar qismi";s:26:"BizHaqimizda BizHaqimizda2";a:0:{}s:7:"viewBag";a:0:{}}}
+
+</head>";s:4:"code";N;s:11:"description";s:36:"Saytning bosh qismi va stillar qismi";s:7:"viewBag";a:0:{}s:44:"BizHaqimizdaComponent BizHaqimizdaComponent2";a:0:{}}}

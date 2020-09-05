@@ -7,7 +7,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-             'Raxmatilla\Bizhaqimizda\Components\Bizhaqimizda' => 'BizHaqimizda'
+            'Raxmatilla\BizHaqimizda\Components\BizHaqimizdaCompo' => 'BizHaqimizdaComponent'
         ];
     }
 

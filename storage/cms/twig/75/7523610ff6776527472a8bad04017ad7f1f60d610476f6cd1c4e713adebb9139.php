@@ -40,9 +40,9 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
         display: none;
       }
     } 
-   
-    
-    
+     
+
+  
     </style>
     <!--introduction-section-->
     <section class=\"ttm-row introduction-section clearfix\">
@@ -53,35 +53,31 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                     <div class=\"section-title\">
                         <div class=\"title-header\">
                         
-                        ";
+                  ";
         // line 20
-        $context["record"] = twig_get_attribute($this->env, $this->source, ($context["builderDetails"] ?? null), "record", [], "any", false, false, false, 20);
-        // line 21
-        $context["displayColumn"] = twig_get_attribute($this->env, $this->source, ($context["builderDetails"] ?? null), "displayColumn", [], "any", false, false, false, 21);
-        // line 22
-        $context["notFoundMessage"] = twig_get_attribute($this->env, $this->source, ($context["builderDetails"] ?? null), "notFoundMessage", [], "any", false, false, false, 22);
-        // line 23
-        echo "
-";
-        // line 24
-        if (($context["record"] ?? null)) {
-            // line 25
-            echo "   
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["BizHaqimizdaComponent"] ?? null), "bizhaqimizda", [], "any", false, false, false, 20));
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 21
+            echo "                  ";
+            if ($context["post"]) {
+                // line 22
+                echo "   
    <h5>";
-            // line 26
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "h5", [], "any", false, false, false, 26), "html", null, true);
-            echo "</h5>
+                // line 23
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "h5", [], "any", false, false, false, 23), "html", null, true);
+                echo "</h5>
                             <h2 class=\"title\">";
-            // line 27
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "h2", [], "any", false, false, false, 27), "html", null, true);
-            echo "</h2>
+                // line 24
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "h2", [], "any", false, false, false, 24), "html", null, true);
+                echo "</h2>
                         </div>
                         <div class=\"heading-seperator\"><span></span></div>
                     </div><!-- section title end -->
                     <p> ";
-            // line 31
-            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "text", [], "any", false, false, false, 31);
-            echo "</p>
+                // line 28
+                echo twig_get_attribute($this->env, $this->source, $context["post"], "text", [], "any", false, false, false, 28);
+                echo "</p>
                    
                     <!-- <h5 class=\"text-center\">Institut haqida qisqacha</h5> -->
                     <div class=\"row mt-25 mb-10\">
@@ -91,69 +87,69 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                             <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
                             
                            ";
-            // line 40
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "list_key_chap", [], "any", false, false, false, 40));
-            foreach ($context['_seq'] as $context["_key"] => $context["list"]) {
-                // line 41
-                echo "                                <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_url", [], "any", false, false, false, 41), "html", null, true);
-                echo "\">";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_nomi", [], "any", false, false, false, 41), "html", null, true);
-                echo "</a></div></li>
+                // line 37
+                $context['_parent'] = $context;
+                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, $context["post"], "list_key_chap", [], "any", false, false, false, 37));
+                foreach ($context['_seq'] as $context["_key"] => $context["list"]) {
+                    // line 38
+                    echo "                                <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_url", [], "any", false, false, false, 38), "html", null, true);
+                    echo "\">";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_nomi", [], "any", false, false, false, 38), "html", null, true);
+                    echo "</a></div></li>
                                 
                                 ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['list'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 44
-            echo "                                <!--<li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\">Guaranted career grow security</div></li>
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['list'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 41
+                echo "                                <!--<li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\">Guaranted career grow security</div></li>
                                 <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\">Experienced faculty and teachers</div></li>-->
                             </ul>
                         </div>
                        <div class=\"col-lg-6 col-md-5 col-sm-6\">
                             <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
                                 ";
-            // line 50
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "list_key_ong", [], "any", false, false, false, 50));
-            foreach ($context['_seq'] as $context["_key"] => $context["list"]) {
-                // line 51
-                echo "                                <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_url", [], "any", false, false, false, 51), "html", null, true);
-                echo "\">";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_nomi", [], "any", false, false, false, 51), "html", null, true);
-                echo "</a></div></li>
+                // line 47
+                $context['_parent'] = $context;
+                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, $context["post"], "list_key_ong", [], "any", false, false, false, 47));
+                foreach ($context['_seq'] as $context["_key"] => $context["list"]) {
+                    // line 48
+                    echo "                                <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_url", [], "any", false, false, false, 48), "html", null, true);
+                    echo "\">";
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["list"], "list_nomi", [], "any", false, false, false, 48), "html", null, true);
+                    echo "</a></div></li>
                                 
                                 ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['list'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 54
-            echo "                            </ul>
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['list'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 51
+                echo "                            </ul>
                         </div>
                     </div> 
                     <div class=\"row\">
                         <div class=\"col-lg-4 col-md-5 col-sm-6\">
                             <div class=\"mt-30 res-991-mt-15\">
                                 <a class=\"ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark\" href=\"#\">";
-            // line 60
-            echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Ko'proq o'qish"]);
-            echo "</a>
+                // line 57
+                echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Ko'proq o'qish"]);
+                echo "</a>
                             </div>
                         </div>
                         <div class=\"col-lg-6 col-md-5 col-sm-6\">
                             <div class=\"mt-30 res-991-mt-15 res-991-mb-30\">
                                 <h6 class=\"ttm-textcolor-skincolor mb-2\">";
-            // line 65
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "qabulhona_tel", [], "any", false, false, false, 65), "html", null, true);
-            echo " </h6>
+                // line 62
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "qabulhona_tel", [], "any", false, false, false, 62), "html", null, true);
+                echo " </h6>
                                 <h6 class=\"font-weight-normal\">";
-            // line 66
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "qabul_text", [], "any", false, false, false, 66), "html", null, true);
-            echo "</h6>
+                // line 63
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "qabul_text", [], "any", false, false, false, 63), "html", null, true);
+                echo "</h6>
                             </div>
                         </div>
                     </div>
@@ -162,21 +158,28 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                     <!-- ttm_single_image-wrapper -->
                     <div class=\"ttm_single_image-wrapper\" style=\"height: 520px;\">
                         <img class=\"img-fluid lazyload\" style=\"height: 520px;\" data-src=\"";
-            // line 74
-            echo $this->extensions['System\Twig\Extension']->mediaFilter(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "image", [], "any", false, false, false, 74));
-            echo "\" alt=\"\"  id=\"optionalstuff\">
+                // line 71
+                echo $this->extensions['System\Twig\Extension']->mediaFilter(twig_get_attribute($this->env, $this->source, $context["post"], "image", [], "any", false, false, false, 71));
+                echo "\" alt=\"\"  id=\"optionalstuff\">
                     </div>
                 </div>
-";
-        } else {
-            // line 78
-            echo "    ";
-            echo twig_escape_filter($this->env, ($context["notFoundMessage"] ?? null), "html", null, true);
-            echo "
-";
+                ";
+            } else {
+                // line 75
+                echo "                    ";
+                echo twig_escape_filter($this->env, ($context["notFoundMessage"] ?? null), "html", null, true);
+                echo "
+                ";
+            }
+            // line 77
+            echo "              
+              ";
         }
-        // line 80
-        echo "                        
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 78
+        echo "          
                             
                 
             </div><!-- row end -->
@@ -197,7 +200,7 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
 
     public function getDebugInfo()
     {
-        return array (  179 => 80,  173 => 78,  166 => 74,  155 => 66,  151 => 65,  143 => 60,  135 => 54,  123 => 51,  119 => 50,  111 => 44,  99 => 41,  95 => 40,  83 => 31,  76 => 27,  72 => 26,  69 => 25,  67 => 24,  64 => 23,  62 => 22,  60 => 21,  58 => 20,  37 => 1,);
+        return array (  182 => 78,  175 => 77,  169 => 75,  162 => 71,  151 => 63,  147 => 62,  139 => 57,  131 => 51,  119 => 48,  115 => 47,  107 => 41,  95 => 38,  91 => 37,  79 => 28,  72 => 24,  68 => 23,  65 => 22,  62 => 21,  58 => 20,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -208,9 +211,9 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
         display: none;
       }
     } 
-   
-    
-    
+     
+
+  
     </style>
     <!--introduction-section-->
     <section class=\"ttm-row introduction-section clearfix\">
@@ -221,18 +224,15 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                     <div class=\"section-title\">
                         <div class=\"title-header\">
                         
-                        {% set record = builderDetails.record %}
-{% set displayColumn = builderDetails.displayColumn %}
-{% set notFoundMessage = builderDetails.notFoundMessage %}
-
-{% if record %}
+                  {% for post in BizHaqimizdaComponent.bizhaqimizda %}
+                  {% if post %}
    
-   <h5>{{ record.h5 }}</h5>
-                            <h2 class=\"title\">{{ record.h2 }}</h2>
+   <h5>{{ post.h5 }}</h5>
+                            <h2 class=\"title\">{{ post.h2 }}</h2>
                         </div>
                         <div class=\"heading-seperator\"><span></span></div>
                     </div><!-- section title end -->
-                    <p> {{ record.text|raw }}</p>
+                    <p> {{ post.text|raw }}</p>
                    
                     <!-- <h5 class=\"text-center\">Institut haqida qisqacha</h5> -->
                     <div class=\"row mt-25 mb-10\">
@@ -241,7 +241,7 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                         <div class=\"col-lg-6 col-md-5 col-sm-6\">
                             <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
                             
-                           {% for list in record.list_key_chap %}
+                           {% for list in post.list_key_chap %}
                                 <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"{{ list.list_url}}\">{{ list.list_nomi}}</a></div></li>
                                 
                                 {% endfor %}
@@ -251,7 +251,7 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                         </div>
                        <div class=\"col-lg-6 col-md-5 col-sm-6\">
                             <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
-                                {% for list in record.list_key_ong %}
+                                {% for list in post.list_key_ong %}
                                 <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><a href=\"{{ list.list_url}}\">{{ list.list_nomi}}</a></div></li>
                                 
                                 {% endfor %}
@@ -266,8 +266,8 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                         </div>
                         <div class=\"col-lg-6 col-md-5 col-sm-6\">
                             <div class=\"mt-30 res-991-mt-15 res-991-mb-30\">
-                                <h6 class=\"ttm-textcolor-skincolor mb-2\">{{ record.qabulhona_tel}} </h6>
-                                <h6 class=\"font-weight-normal\">{{ record.qabul_text}}</h6>
+                                <h6 class=\"ttm-textcolor-skincolor mb-2\">{{ post.qabulhona_tel}} </h6>
+                                <h6 class=\"font-weight-normal\">{{ post.qabul_text}}</h6>
                             </div>
                         </div>
                     </div>
@@ -275,13 +275,14 @@ class __TwigTemplate_a91896e615a40ac0798a7c46f9ee260d886c559f5221332e85fb67f8f1a
                 <div class=\"col-lg-6 col-md-10\">
                     <!-- ttm_single_image-wrapper -->
                     <div class=\"ttm_single_image-wrapper\" style=\"height: 520px;\">
-                        <img class=\"img-fluid lazyload\" style=\"height: 520px;\" data-src=\"{{ record.image|media }}\" alt=\"\"  id=\"optionalstuff\">
+                        <img class=\"img-fluid lazyload\" style=\"height: 520px;\" data-src=\"{{ post.image|media }}\" alt=\"\"  id=\"optionalstuff\">
                     </div>
                 </div>
-{% else %}
-    {{ notFoundMessage }}
-{% endif %}
-                        
+                {% else %}
+                    {{ notFoundMessage }}
+                {% endif %}
+              
+              {% endfor %}          
                             
                 
             </div><!-- row end -->

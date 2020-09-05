@@ -21,7 +21,7 @@ class BizHaqimizda extends Model
      */
     public $timestamps = false;
 
-   
+
     /**
      * @var string The database table used by the model.
      */
@@ -34,4 +34,7 @@ class BizHaqimizda extends Model
     ];
 
     public $jsonable = ['list_key_chap', 'list_key_ong'];
+
+
+  
 }
