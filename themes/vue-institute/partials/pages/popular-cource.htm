@@ -1,14 +1,10 @@
-[builderList]
-modelClass = "Raxmatilla\Elonlar\Models\Elonlar"
-scope = "scopePopular"
-scopeValue = "{{ :scope }}"
-displayColumn = "title"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
+description = "E'lonlar qismi"
 
 [viewBag]
+
+[Elonlar]
+sort = "created_at asc"
+display = 8
 ==
 <!--course-section-->
      <section class="ttm-row course-section ttm-bgcolor-grey clearfix">
@@ -19,8 +15,8 @@ pageNumber = "{{ :page }}"
                     <!-- section title -->
                     <div class="section-title title-style-center_text">
                         <div class="title-header">
-                            <h5>OTM AXBOROT XIZMATI</h5>
-                            <h2 class="title">OTM E'LONLARI</h2>
+                            <h5>{{"OTM AXBOROT XIZMATI"|_}}</h5>
+                            <h2 class="title">{{"OTM E'LONLARI"|_}}</h2>
                         </div>
                         <div class="heading-seperator"><span></span></div>
                     </div><!-- section title end -->
@@ -31,21 +27,13 @@ pageNumber = "{{ :page }}"
             {"breakpoint":590,"settings":{"slidesToShow": 1}}]}'>
               
               
-              {% set records = builderList.records %}
-                {% set displayColumn = builderList.displayColumn %}
-                {% set noRecordsMessage = builderList.noRecordsMessage %}
-                {% set detailsPage = builderList.detailsPage %}
-                {% set detailsKeyColumn = builderList.detailsKeyColumn %}
-                {% set detailsUrlParameter = builderList.detailsUrlParameter %}
-                
-         
-            
+              {% set records = Elonlar.elonlarlist %}
                 {% for record in records %}
                 <div class="ttm-box-col-wrapper col-lg-4">
                     <!-- featured-imagebox-course -->
                     <div class="featured-imagebox featured-imagebox-course">
                         <div class="ttm-post-thumbnail featured-thumbnail"> 
-                            <img class="img-fluid lazyload" data-src="{{ record.image|media| resize (386,345, { mode: 'crop', quality: '80' })}}" alt="{{ record.title }}"> 
+                            <img class="img-fluid lazyload" data-src="{{ record.image|media| resize (386,345, { mode: 'crop', quality: '70' })}}" alt="{{ record.title }}"> 
                         </div>
                         <div class="featured-content featured-content-post">
                             <div class="featured-content-post-inner">

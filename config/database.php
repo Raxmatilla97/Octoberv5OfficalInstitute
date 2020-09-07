@@ -57,7 +57,7 @@ return [
             'engine'     => 'InnoDB',
             'host'       => 'localhost',
             'port'       => 3306,
-            'database'   => 'october-institut-v5',
+            'database'   => 'october_institute_v2',
             'username'   => 'root',
             'password'   => 'root',
             'charset'    => 'utf8mb4',

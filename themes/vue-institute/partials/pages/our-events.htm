@@ -1,13 +1,16 @@
+description = "Konfrensiyalar"
+
+[viewBag]
+
 [builderList]
 modelClass = "Raxmatilla\Konfrensiyalar\Models\Konfrensiyalar"
 scope = "-"
+scopeValue = "{{ :scope }}"
 displayColumn = "title"
 noRecordsMessage = "No records found"
 detailsPage = "-"
 detailsUrlParameter = "id"
 pageNumber = "{{ :page }}"
-
-[viewBag]
 ==
 {% set records = builderList.records %}
     {% set displayColumn = builderList.displayColumn %}
@@ -44,7 +47,7 @@ pageNumber = "{{ :page }}"
                     <!-- featured-imagebox-event -->
                     <div class="featured-imagebox featured-imagebox-event">
                         <div class="ttm-event-thumbnail featured-thumbnail">
-                            <img class="img-fluid lazyload" data-src="{{ record.image|media| resize (740, 510 , { mode: 'crop', quality: '80' }) }}" alt="{{ record.title }}">
+                            <img class="img-fluid lazyload" data-src="{{ record.image|media| resize (740, 510 , { mode: 'crop', quality: '70' }) }}" alt="{{ record.title }}">
                             <div class="ttm-box-event-date">
                                 <span class="ttm-entry-date">
                                     <time class="entry-date" datetime="{{ record.kun_soat|date('d-M') }}">{{ record.kun_soat|date('d-M') }}</time>

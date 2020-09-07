@@ -174,4 +174,8 @@
   'RainLab\\Builder\\Rules\\Reserved' => 'plugins\\rainlab\\builder\\rules\\Reserved.php',
   'Raxmatilla\\BizHaqimizda\\Components\\Hisoblagich' => 'plugins\\raxmatilla\\bizhaqimizda\\components\\Hisoblagich.php',
   'Raxmatilla\\BizHaqimizda\\Components\\HisoblagichCompo' => 'plugins\\raxmatilla\\bizhaqimizda\\components\\HisoblagichCompo.php',
+  'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
+  'Indikator\\News\\Models\\PostsImport' => 'plugins\\indikator\\news\\models\\PostsImport.php',
+  'Indikator\\News\\Models\\PostsExport' => 'plugins\\indikator\\news\\models\\PostsExport.php',
+  'Raxmatilla\\Elonlar\\Components\\ListCompoment' => 'plugins\\raxmatilla\\elonlar\\components\\ListCompoment.php',
 );
