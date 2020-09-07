@@ -3,3 +3,18 @@
 1.0.2:
     - 'Created table raxmatilla_majmualar_items'
     - builder_table_create_raxmatilla_majmualar_items.php
+1.0.3:
+    - 'Updated table raxmatilla_majmualar_items'
+    - builder_table_update_raxmatilla_majmualar_items.php
+1.0.4:
+    - 'Created table raxmatilla_majmualar_fakultetlar'
+    - builder_table_create_raxmatilla_majmualar_fakultetlar.php
+1.0.5:
+    - 'Created table raxmatilla_majmualar_kafedralar'
+    - builder_table_create_raxmatilla_majmualar_kafedralar.php
+1.0.6:
+    - 'Created table raxmatilla_majmualar_manbalar'
+    - builder_table_create_raxmatilla_majmualar_manbalar.php
+1.0.7:
+    - 'Created table raxmatilla_majmualar_fanlar'
+    - builder_table_create_raxmatilla_majmualar_fanlar.php
