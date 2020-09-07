@@ -8,7 +8,8 @@ sort = "created_at desc"
 ==
 <!-- Axborot xizmati uchun component -->
   {% set axborot = AxborotCompoment.axborot %}
-
+<!-- Axborotlarni soni -->
+  {% set axborotcount = AxborotCompoment.axborotcount %}
 <style>
     .avatar {
         vertical-align: middle;
@@ -58,7 +59,7 @@ sort = "created_at desc"
                                                 
                                                 <div class="featured-content " style="width: 200px;margin-right: 460px;bottom: 10px;background: white;border-color: #ff4f01;border-style: solid;">
                                                     <div class="featured-title">
-                                                        <h5>120 ta</h5>
+                                                        <h5>{{axborotcount}} ta</h5>
                                                     </div>
                                                     <div class="featured-desc">
                                                         <p>Ma'lumotlar ko'lami</p>

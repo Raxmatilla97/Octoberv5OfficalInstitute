@@ -13,20 +13,19 @@ class AxborotCompo extends ComponentBase
     }
 
     public $axborot;
+    public $axborotcount;    
 
-
-    
-
-    public function onRun(){
-        
+    public function onRun(){        
     $sort = $this->property('sort');
  
     $sort = explode(' ', $sort); 
 
     $display = $this->property('display');
 
-        $this->axborot = AxborotMakoni::orderBy($sort[0], $sort[1])->get()->take($display);     
-
+        $this->axborot = AxborotMakoni::orderBy($sort[0], $sort[1])->get()->take($display);   
+        // dd($this->axborot);  
+        $this->axborotcount = AxborotMakoni::all()->pluck('id')->count();
+    
     }
 
     public function defineProperties()

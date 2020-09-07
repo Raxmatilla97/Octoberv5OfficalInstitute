@@ -197,4 +197,6 @@
   'Raxmatilla\\Konfrensiyalar\\Components\\KonfrensiyaCompo' => 'plugins\\raxmatilla\\konfrensiyalar\\components\\KonfrensiyaCompo.php',
   'Raxmatilla\\AxborotMakoni\\Components\\AxborotCompo' => 'plugins\\raxmatilla\\axborotmakoni\\components\\AxborotCompo.php',
   'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
+  'raxmatilla\\majmualar\\Plugin' => 'plugins\\raxmatilla\\majmualar\\Plugin.php',
+  'RainLab\\Builder\\Classes\\MigrationModel' => 'plugins\\rainlab\\builder\\classes\\MigrationModel.php',
 );

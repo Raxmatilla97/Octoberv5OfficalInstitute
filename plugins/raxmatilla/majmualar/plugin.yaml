@@ -1,0 +1,6 @@
+plugin:
+    name: 'raxmatilla.majmualar::lang.plugin.name'
+    description: 'raxmatilla.majmualar::lang.plugin.description'
+    author: Raxmatilla
+    icon: oc-icon-bell
+    homepage: ''
