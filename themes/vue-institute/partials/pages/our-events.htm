@@ -2,22 +2,11 @@ description = "Konfrensiyalar"
 
 [viewBag]
 
-[builderList]
-modelClass = "Raxmatilla\Konfrensiyalar\Models\Konfrensiyalar"
-scope = "-"
-scopeValue = "{{ :scope }}"
-displayColumn = "title"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
+[Konfrensiyalar]
+display = 4
+sort = "created_at desc"
 ==
-{% set records = builderList.records %}
-    {% set displayColumn = builderList.displayColumn %}
-    {% set noRecordsMessage = builderList.noRecordsMessage %}
-    {% set detailsPage = builderList.detailsPage %}
-    {% set detailsKeyColumn = builderList.detailsKeyColumn %}
-    {% set detailsUrlParameter = builderList.detailsUrlParameter %}
+{% set records = Konfrensiyalar.konfrense %}    
 
 <!--event-section-->
     <section class="ttm-row event2-section bg-img1 ttm-bgcolor-darkgrey clearfix">
@@ -84,7 +73,7 @@ pageNumber = "{{ :page }}"
             <!-- row -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="mt-20 mb_25 text-center"><p>Yanada ko'proq konferensiyalar haqida bilmoqchi bo'lsangiz <u><a href="home-3.html#">BU YERGA BOSING.</a></u></p></div>
+                    <div class="mt-20 mb_25 text-center"><p>{{"Yanada ko'proq konferensiyalar haqida bilmoqchi bo'lsangiz"|_}} <u><a href="home-3.html#">{{"BU YERGA BOSING."|_}}</a></u></p></div>
                 </div>
             </div><!-- row end -->
         </div>

@@ -1,0 +1,6 @@
+plugin:
+    name: 'raxmatilla.konfrensiyalar::lang.plugin.name'
+    description: 'raxmatilla.konfrensiyalar::lang.plugin.description'
+    author: Raxmatilla
+    icon: oc-icon-beer
+    homepage: ''
