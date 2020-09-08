@@ -199,4 +199,10 @@
   'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
   'raxmatilla\\majmualar\\Plugin' => 'plugins\\raxmatilla\\majmualar\\Plugin.php',
   'RainLab\\Builder\\Classes\\MigrationModel' => 'plugins\\rainlab\\builder\\classes\\MigrationModel.php',
+  'raxmatilla\\majmualar\\Controllers\\majmualar' => 'plugins\\raxmatilla\\majmualar\\controllers\\majmualar.php',
+  'Raxmatilla\\Majmualar\\Models\\Majmualar' => 'plugins\\raxmatilla\\majmualar\\models\\Majmualar.php',
+  'Raxmatilla\\Majmualar\\Models\\Manbalar' => 'plugins\\raxmatilla\\majmualar\\models\\Manbalar.php',
+  'Raxmatilla\\Majmualar\\Models\\Fakultetlar' => 'plugins\\raxmatilla\\majmualar\\models\\Fakultetlar.php',
+  'Raxmatilla\\Majmualar\\Models\\Kafedralar' => 'plugins\\raxmatilla\\majmualar\\models\\Kafedralar.php',
+  'Raxmatilla\\Majmualar\\Models\\Fanlar' => 'plugins\\raxmatilla\\majmualar\\models\\Fanlar.php',
 );
