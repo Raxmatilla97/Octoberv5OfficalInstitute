@@ -20,4 +20,12 @@ class Majmualar extends Model
      */
     public $rules = [
     ];
+
+
+    public $belongsTo = [
+        'manbalar' => 'Raxmatilla\Majmualar\Models\Manbalar',
+        'fakultetlar' => 'Raxmatilla\Majmualar\Models\Fakultetlar',
+        'kafedralar' => 'Raxmatilla\Majmualar\Models\Kafedralar',
+        'fanlar' => 'Raxmatilla\Majmualar\Models\Fanlar'
+    ];
 }

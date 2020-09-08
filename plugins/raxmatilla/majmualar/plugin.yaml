@@ -4,3 +4,29 @@ plugin:
     author: Raxmatilla
     icon: oc-icon-bell
     homepage: ''
+navigation:
+    main-menu-item:
+        label: Majmualar
+        url: raxmatilla/majmualar/majmualar
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: 'Majmualar ro''yxati'
+                url: raxmatilla/majmualar/majmualar
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Manbalar
+                url: /
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Fakultetlar
+                url: /
+                icon: icon-sitemap
+            side-menu-item4:
+                label: Kafedralar
+                url: /
+                icon: icon-sitemap
+            side-menu-item5:
+                label: Fanlar
+                url: /
+                icon: icon-sitemap

@@ -18,3 +18,9 @@
 1.0.7:
     - 'Created table raxmatilla_majmualar_fanlar'
     - builder_table_create_raxmatilla_majmualar_fanlar.php
+1.0.8:
+    - 'Updated table raxmatilla_majmualar_manbalar'
+    - builder_table_update_raxmatilla_majmualar_manbalar.php
+1.0.9:
+    - 'Updated table raxmatilla_majmualar_items'
+    - builder_table_update_raxmatilla_majmualar_items_2.php
