@@ -8,25 +8,25 @@ navigation:
     main-menu-item:
         label: Majmualar
         url: raxmatilla/majmualar/majmualar
-        icon: icon-life-ring
+        icon: icon-clipboard
         sideMenu:
             side-menu-item:
                 label: 'Majmualar ro''yxati'
                 url: raxmatilla/majmualar/majmualar
-                icon: icon-sitemap
+                icon: icon-spotify
             side-menu-item2:
                 label: Manbalar
-                url: /
-                icon: icon-sitemap
+                url: raxmatilla/majmualar/manbalar
+                icon: icon-suitcase
             side-menu-item3:
                 label: Fakultetlar
-                url: /
-                icon: icon-sitemap
+                url: raxmatilla/majmualar/fakultetlar
+                icon: icon-weixin
             side-menu-item4:
                 label: Kafedralar
-                url: /
-                icon: icon-sitemap
+                url: raxmatilla/majmualar/kafedralar
+                icon: icon-weibo
             side-menu-item5:
                 label: Fanlar
-                url: /
-                icon: icon-sitemap
+                url: raxmatilla/majmualar/fanlar
+                icon: icon-sort-amount-asc

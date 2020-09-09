@@ -205,4 +205,10 @@
   'Raxmatilla\\Majmualar\\Models\\Fakultetlar' => 'plugins\\raxmatilla\\majmualar\\models\\Fakultetlar.php',
   'Raxmatilla\\Majmualar\\Models\\Kafedralar' => 'plugins\\raxmatilla\\majmualar\\models\\Kafedralar.php',
   'Raxmatilla\\Majmualar\\Models\\Fanlar' => 'plugins\\raxmatilla\\majmualar\\models\\Fanlar.php',
+  'pkurg\\mediauploadname\\Plugin' => 'plugins\\pkurg\\mediauploadname\\Plugin.php',
+  'Pkurg\\Mediauploadname\\Models\\Settings' => 'plugins\\pkurg\\mediauploadname\\models\\Settings.php',
+  'raxmatilla\\majmualar\\Controllers\\manbalar' => 'plugins\\raxmatilla\\majmualar\\controllers\\manbalar.php',
+  'raxmatilla\\majmualar\\Controllers\\fakultetlar' => 'plugins\\raxmatilla\\majmualar\\controllers\\fakultetlar.php',
+  'raxmatilla\\majmualar\\Controllers\\fanlar' => 'plugins\\raxmatilla\\majmualar\\controllers\\fanlar.php',
+  'raxmatilla\\majmualar\\Controllers\\kafedralar' => 'plugins\\raxmatilla\\majmualar\\controllers\\kafedralar.php',
 );

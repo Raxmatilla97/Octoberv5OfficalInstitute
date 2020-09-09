@@ -1,4 +1,4 @@
-1599564137a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1340:"description = "Asosiy frontend sahifa maketi"
+1599648295a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1397:"description = "Asosiy frontend sahifa maketi"
 ==
 {% partial 'general/header'%}
 
@@ -48,7 +48,9 @@
     {% partial 'pages/admission'%}
     
 
-      {% partial 'pages/blog2'%}
+      {#{% partial 'pages/blog2'%}#}
+      
+          {% partial 'pages/interaktiv'%}
       
         {% partial 'pages/client-section'%}
       
@@ -67,7 +69,7 @@
 
 </div><!-- page end -->
 
-{% partial 'general/footer'%}";s:5:"mtime";i:1597488656;s:6:"markup";s:1291:"{% partial 'general/header'%}
+{% partial 'general/footer'%}";s:5:"mtime";i:1599645668;s:6:"markup";s:1346:"{% partial 'general/header'%}
 
 <body>
 
@@ -115,7 +117,9 @@
     {% partial 'pages/admission'%}
     
 
-      {% partial 'pages/blog2'%}
+      {#{% partial 'pages/blog2'%}#}
+      
+          {% partial 'pages/interaktiv'%}
       
         {% partial 'pages/client-section'%}
       

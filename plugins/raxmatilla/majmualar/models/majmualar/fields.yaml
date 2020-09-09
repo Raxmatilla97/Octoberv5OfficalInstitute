@@ -48,29 +48,13 @@ tabs:
             tab: 'Asosiy qism'
 secondaryTabs:
     fields:
-        files:
-            label: 'Fayllarni yuklash'
-            prompt: 'Yangi fayl qo''shish'
+        file_upload1:
+            label: 'Majmualarni yuklash qismi'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
             span: full
-            type: repeater
+            type: fileupload
             tab: 'Fayllarni yuklash qismi'
-            form:
-                fields:
-                    file_upload1:
-                        label: 'File upload'
-                        mode: file
-                        useCaption: true
-                        thumbOptions:
-                            mode: crop
-                            extension: auto
-                        span: auto
-                        type: fileupload
-                    file_upload2:
-                        label: 'File upload'
-                        mode: file
-                        useCaption: true
-                        thumbOptions:
-                            mode: crop
-                            extension: auto
-                        span: auto
-                        type: fileupload

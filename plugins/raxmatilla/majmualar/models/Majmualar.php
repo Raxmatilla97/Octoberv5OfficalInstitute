@@ -21,6 +21,14 @@ class Majmualar extends Model
     public $rules = [
     ];
 
+   
+
+    public $attachMany = [
+        'file_upload1' => 'System\Models\File',
+    ];
+    // public $jsonable = ['file_upload1'];
+
+ 
 
     public $belongsTo = [
         'manbalar' => 'Raxmatilla\Majmualar\Models\Manbalar',
