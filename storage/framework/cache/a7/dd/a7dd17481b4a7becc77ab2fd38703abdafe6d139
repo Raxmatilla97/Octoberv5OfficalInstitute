@@ -1,4 +1,4 @@
-1599648295a:1:{s:18:"pages/about-us.htm";a:8:{s:8:"fileName";s:18:"pages/about-us.htm";s:7:"content";s:4279:"description = "Biz haqimizda qismi eng yuqori qismdan"
+1599732005a:1:{s:18:"pages/about-us.htm";a:8:{s:8:"fileName";s:18:"pages/about-us.htm";s:7:"content";s:4319:"description = "Biz haqimizda qismi eng yuqori qismdan"
 
 [viewBag]
 
@@ -72,7 +72,7 @@ id_find = 1
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-10">
+                <div class="col-lg-6 col-md-10 d-none d-sm-block d-md-none d-lg-block ">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper" style="height: 520px;">
                         <img class="img-fluid lazyload" style="height: 520px;" data-src="{{ post.image|media }}" alt=""  id="optionalstuff">
@@ -88,7 +88,7 @@ id_find = 1
             </div><!-- row end -->
         </div>
     </section>
-    <!--introduction-section end-->";s:5:"mtime";i:1599461962;s:6:"markup";s:4166:"<style>
+    <!--introduction-section end-->";s:5:"mtime";i:1599717128;s:6:"markup";s:4206:"<style>
     @media (max-width:980px) {
       img#optionalstuff {
         display: none;
@@ -155,7 +155,7 @@ id_find = 1
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-10">
+                <div class="col-lg-6 col-md-10 d-none d-sm-block d-md-none d-lg-block ">
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper" style="height: 520px;">
                         <img class="img-fluid lazyload" style="height: 520px;" data-src="{{ post.image|media }}" alt=""  id="optionalstuff">

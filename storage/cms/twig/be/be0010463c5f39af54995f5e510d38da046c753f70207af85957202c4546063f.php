@@ -154,7 +154,7 @@ class __TwigTemplate_34a069baed616138eca7e6d3423630405298a47f7bb3a10913e21f7caad
                         </div>
                     </div>
                 </div>
-                <div class=\"col-lg-6 col-md-10\">
+                <div class=\"col-lg-6 col-md-10 d-none d-sm-block d-md-none d-lg-block \">
                     <!-- ttm_single_image-wrapper -->
                     <div class=\"ttm_single_image-wrapper\" style=\"height: 520px;\">
                         <img class=\"img-fluid lazyload\" style=\"height: 520px;\" data-src=\"";
@@ -272,7 +272,7 @@ class __TwigTemplate_34a069baed616138eca7e6d3423630405298a47f7bb3a10913e21f7caad
                         </div>
                     </div>
                 </div>
-                <div class=\"col-lg-6 col-md-10\">
+                <div class=\"col-lg-6 col-md-10 d-none d-sm-block d-md-none d-lg-block \">
                     <!-- ttm_single_image-wrapper -->
                     <div class=\"ttm_single_image-wrapper\" style=\"height: 520px;\">
                         <img class=\"img-fluid lazyload\" style=\"height: 520px;\" data-src=\"{{ post.image|media }}\" alt=\"\"  id=\"optionalstuff\">

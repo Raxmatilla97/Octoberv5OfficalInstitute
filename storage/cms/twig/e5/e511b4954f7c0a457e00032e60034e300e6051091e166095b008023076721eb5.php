@@ -254,7 +254,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
                                 <!-- content-inner -->
                                 <div class=\"content-inner\">
                                     <div class=\"row\">
-                                         <div class=\"col-md-4\">
+                                         <div class=\"col-md-6\">
                                             <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
                                                 <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"So'ngi majmualar\"</strong> Saytga joylashtirilgan eng so'ngi majmualar</p>
                                                 <div class=\"pt-10 pb-30 res-991-pb-15\">
@@ -281,7 +281,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
         echo "</a>
                                             </div>
                                         </div>
-                                         <div class=\"col-md-4\" style=\"background: #f4f6f9 !important;\">
+                                         <div class=\"col-md-6\" style=\"background: #f4f6f9 !important;\">
                                             <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
                                                 <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"Eng ko'p ko'rilgan\"</strong> Foydalanuvchilar tomonidna eng ko'p etibor berilgan majmualar.</p>
                                                 <div class=\"pt-10 pb-30 res-991-pb-15\">
@@ -308,33 +308,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
         echo "</a>
                                             </div>
                                         </div>
-                                         <div class=\"col-md-4\">
-                                            <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
-                                                <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"Eng ko'p yuklab olingan\"</strong> Foydalanuvchilar tomonidan eng ko'p yuklab olingan majmualar.</p>
-                                                <div class=\"pt-10 pb-30 res-991-pb-15\">
-                                                    <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
-                                                        <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                             <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                           <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                      
-                                                    
-                                                    </ul>
-                                                </div>
-                                                <a class=\"ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark\" href=\"#\">";
-        // line 215
-        echo call_user_func_array($this->env->getFilter('_')->getCallable(), ["Barcha maqolalarni ko'rish"]);
-        echo "</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div><!-- content-inner end-->
                             </div>
@@ -358,7 +332,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
 
     public function getDebugInfo()
     {
-        return array (  334 => 215,  307 => 191,  280 => 167,  247 => 137,  240 => 133,  227 => 123,  218 => 117,  209 => 111,  184 => 89,  174 => 81,  165 => 79,  145 => 74,  141 => 72,  136 => 71,  116 => 54,  102 => 43,  92 => 36,  88 => 35,  84 => 34,  70 => 23,  66 => 22,  47 => 5,  45 => 4,  42 => 3,  40 => 2,  37 => 1,);
+        return array (  307 => 191,  280 => 167,  247 => 137,  240 => 133,  227 => 123,  218 => 117,  209 => 111,  184 => 89,  174 => 81,  165 => 79,  145 => 74,  141 => 72,  136 => 71,  116 => 54,  102 => 43,  92 => 36,  88 => 35,  84 => 34,  70 => 23,  66 => 22,  47 => 5,  45 => 4,  42 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -508,7 +482,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
                                 <!-- content-inner -->
                                 <div class=\"content-inner\">
                                     <div class=\"row\">
-                                         <div class=\"col-md-4\">
+                                         <div class=\"col-md-6\">
                                             <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
                                                 <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"So'ngi majmualar\"</strong> Saytga joylashtirilgan eng so'ngi majmualar</p>
                                                 <div class=\"pt-10 pb-30 res-991-pb-15\">
@@ -532,7 +506,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
                                                 <a class=\"ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark\" href=\"#\">{{ \"Barcha maqolalarni ko'rish\"|_ }}</a>
                                             </div>
                                         </div>
-                                         <div class=\"col-md-4\" style=\"background: #f4f6f9 !important;\">
+                                         <div class=\"col-md-6\" style=\"background: #f4f6f9 !important;\">
                                             <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
                                                 <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"Eng ko'p ko'rilgan\"</strong> Foydalanuvchilar tomonidna eng ko'p etibor berilgan majmualar.</p>
                                                 <div class=\"pt-10 pb-30 res-991-pb-15\">
@@ -556,30 +530,7 @@ class __TwigTemplate_e734b1f5dfcf0ce415a231020691c49827d05ab2ff15b1696e4c7863ea6
                                                 <a class=\"ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark\" href=\"#\">{{ \"Barcha maqolalarni ko'rish\"|_ }}</a>
                                             </div>
                                         </div>
-                                         <div class=\"col-md-4\">
-                                            <div class=\"pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20\">
-                                                <h4 class=\"font-weight-normal\"><strong style=\"color: #ff4f01;\"> \"Eng ko'p yuklab olingan\"</strong> Foydalanuvchilar tomonidan eng ko'p yuklab olingan majmualar.</p>
-                                                <div class=\"pt-10 pb-30 res-991-pb-15\">
-                                                    <ul class=\"ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor\">
-                                                        <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                             <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                           <li><i class=\"fa fa-arrow-circle-right\"></i><div class=\"ttm-list-li-content\"><b><a href=\"#\">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style=\"color: #ff4f01;\"> Chop etildi: </strong> 2020-avgust <strong style=\"color: #ff4f01;\">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src=\"http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png\" alt=\"Avatar\" class=\"avatar\"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                      
-                                                    
-                                                    </ul>
-                                                </div>
-                                                <a class=\"ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark\" href=\"#\">{{ \"Barcha maqolalarni ko'rish\"|_ }}</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div><!-- content-inner end-->
                             </div>
