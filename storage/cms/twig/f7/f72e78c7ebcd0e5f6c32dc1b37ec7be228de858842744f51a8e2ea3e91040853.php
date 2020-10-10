@@ -50,7 +50,11 @@ class __TwigTemplate_1dbfdc4f8654fd5ca5629027299294e92527e9c8468607cfc8a4e841fec
                                 <div class=\"logo-icon slideInUp animated mx-auto\">
                                     <img class=\"img-fluid d-inline-block lazyload \"  data-src=\"";
         // line 12
+<<<<<<< HEAD
         echo call_user_func_array($this->env->getFilter('resize')->getCallable(), [$this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/oq_logo.png"), ["mode" => "crop", "quality" => "80"]]);
+=======
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/oq_logo.png");
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         echo "\" style=\"width: 200px;\">
                                 </div>
                                 <div class=\"slideInUp animated text font-weight-normal mt-10\"><strong>OLD SITE:institut saytining eski versiyasini quyidagi havola orqali ishlatishingiz mumkin. <a href=\"#\" ><span class=\"ttm-textcolor-skincolor\">BU YERGA!</span></a></strong>  </div>  
@@ -72,7 +76,11 @@ class __TwigTemplate_1dbfdc4f8654fd5ca5629027299294e92527e9c8468607cfc8a4e841fec
     <div class=\"banner-slide \">
         <img class=\"img-fluid lazyload \" data-src=\"";
         // line 31
+<<<<<<< HEAD
         echo call_user_func_array($this->env->getFilter('resize')->getCallable(), [$this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/slides/korona_virus.jpg"), ["mode" => "crop", "quality" => "80"]]);
+=======
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/slides/korona_virus.jpg");
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         echo "\" alt=\"slider-image\"/>
         <div class=\"banner-caption\">
             <div class=\"info\">
@@ -129,7 +137,11 @@ class __TwigTemplate_1dbfdc4f8654fd5ca5629027299294e92527e9c8468607cfc8a4e841fec
                         <div class=\"col-lg-12\">
                             <div class=\"banner-text ttm-textcolor-white text-center\">
                                 <div class=\"logo-icon slideInUp animated mx-auto\">
+<<<<<<< HEAD
                                     <img class=\"img-fluid d-inline-block lazyload \"  data-src=\"{{ 'assets/images/oq_logo.png'|theme |resize ( { mode: 'crop', quality: '80' }) }}\" style=\"width: 200px;\">
+=======
+                                    <img class=\"img-fluid d-inline-block lazyload \"  data-src=\"{{ 'assets/images/oq_logo.png'|theme }}\" style=\"width: 200px;\">
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
                                 </div>
                                 <div class=\"slideInUp animated text font-weight-normal mt-10\"><strong>OLD SITE:institut saytining eski versiyasini quyidagi havola orqali ishlatishingiz mumkin. <a href=\"#\" ><span class=\"ttm-textcolor-skincolor\">BU YERGA!</span></a></strong>  </div>  
                                 <div class=\"mt-10 mb-15\">
@@ -148,7 +160,11 @@ class __TwigTemplate_1dbfdc4f8654fd5ca5629027299294e92527e9c8468607cfc8a4e841fec
     </div>
     <!-- banner-slide -->
     <div class=\"banner-slide \">
+<<<<<<< HEAD
         <img class=\"img-fluid lazyload \" data-src=\"{{ 'assets/images/slides/korona_virus.jpg'|theme |resize ( { mode: 'crop', quality: '80' }) }}\" alt=\"slider-image\"/>
+=======
+        <img class=\"img-fluid lazyload \" data-src=\"{{ 'assets/images/slides/korona_virus.jpg'|theme }}\" alt=\"slider-image\"/>
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         <div class=\"banner-caption\">
             <div class=\"info\">
                 <div class=\"container\">

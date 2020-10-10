@@ -10,12 +10,15 @@ fields:
             field: title
             type: slug
         type: text
+<<<<<<< HEAD
     user:
         label: 'Chop etuvchi'
         nameFrom: 'first_name,last_name'
         descriptionFrom: description
         span: auto
         type: relation
+=======
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 tabs:
     fields:
         manbalar:

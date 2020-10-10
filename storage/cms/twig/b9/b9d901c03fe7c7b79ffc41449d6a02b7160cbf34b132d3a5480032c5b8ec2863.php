@@ -158,6 +158,13 @@ class __TwigTemplate_66eb0caef4b80e857fce75185b8280c89d8f185cca4da54bbb92273bfe9
         // line 50
         echo "      
           ";
+<<<<<<< HEAD
+=======
+        // line 51
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("pages/interaktiv"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         // line 52
         echo "      
         ";
@@ -206,7 +213,11 @@ class __TwigTemplate_66eb0caef4b80e857fce75185b8280c89d8f185cca4da54bbb92273bfe9
 
     public function getDebugInfo()
     {
+<<<<<<< HEAD
         return array (  192 => 70,  179 => 59,  175 => 58,  169 => 54,  165 => 53,  162 => 52,  159 => 50,  155 => 47,  151 => 46,  147 => 44,  143 => 43,  139 => 41,  134 => 40,  130 => 39,  126 => 37,  122 => 36,  119 => 35,  115 => 34,  112 => 33,  108 => 32,  105 => 31,  101 => 30,  98 => 29,  94 => 28,  91 => 27,  87 => 26,  81 => 22,  77 => 21,  72 => 18,  68 => 17,  65 => 16,  61 => 15,  58 => 14,  54 => 13,  41 => 2,  37 => 1,);
+=======
+        return array (  196 => 70,  183 => 59,  179 => 58,  173 => 54,  169 => 53,  166 => 52,  162 => 51,  159 => 50,  155 => 47,  151 => 46,  147 => 44,  143 => 43,  139 => 41,  134 => 40,  130 => 39,  126 => 37,  122 => 36,  119 => 35,  115 => 34,  112 => 33,  108 => 32,  105 => 31,  101 => 30,  98 => 29,  94 => 28,  91 => 27,  87 => 26,  81 => 22,  77 => 21,  72 => 18,  68 => 17,  65 => 16,  61 => 15,  58 => 14,  54 => 13,  41 => 2,  37 => 1,);
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
     }
 
     public function getSourceContext()
@@ -261,7 +272,11 @@ class __TwigTemplate_66eb0caef4b80e857fce75185b8280c89d8f185cca4da54bbb92273bfe9
 
       {#{% partial 'pages/blog2'%}#}
       
+<<<<<<< HEAD
           {#{% partial 'pages/interaktiv'%}#}
+=======
+          {% partial 'pages/interaktiv'%}
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
       
         {% partial 'pages/client-section'%}
       

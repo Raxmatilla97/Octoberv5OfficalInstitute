@@ -1,13 +1,18 @@
 <?php namespace Raxmatilla\Majmualar\Components;
 
 use Cms\Classes\ComponentBase;
+<<<<<<< HEAD
 use Raxmatilla\Majmualar\Models\Majmualar;
+=======
+
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 class MajmualarCompo extends ComponentBase
 {
     public function componentDetails()
     {
         return [
             'name'        => 'MajmualarCompo Component',
+<<<<<<< HEAD
             'description' => "So'ngi majmualar uchun component"
         ];
     }
@@ -68,5 +73,14 @@ class MajmualarCompo extends ComponentBase
                 
             ]
         ];
+=======
+            'description' => 'No description provided yet...'
+        ];
+    }
+
+    public function defineProperties()
+    {
+        return [];
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
     }
 }

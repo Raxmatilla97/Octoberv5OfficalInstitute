@@ -29,13 +29,20 @@ class Majmualar extends Model
     // public $jsonable = ['file_upload1'];
 
  
+<<<<<<< HEAD
     
+=======
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
     public $belongsTo = [
         'manbalar' => 'Raxmatilla\Majmualar\Models\Manbalar',
         'fakultetlar' => 'Raxmatilla\Majmualar\Models\Fakultetlar',
         'kafedralar' => 'Raxmatilla\Majmualar\Models\Kafedralar',
+<<<<<<< HEAD
         'fanlar' => 'Raxmatilla\Majmualar\Models\Fanlar',
         'user' => 'Backend\Models\User'
+=======
+        'fanlar' => 'Raxmatilla\Majmualar\Models\Fanlar'
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
     ];
 }

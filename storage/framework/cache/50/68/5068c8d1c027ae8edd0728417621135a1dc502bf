@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1401:"description = "Asosiy frontend sahifa maketi"
+=======
+1599732005a:1:{s:17:"asosiy_sahifa.htm";a:6:{s:8:"fileName";s:17:"asosiy_sahifa.htm";s:7:"content";s:1397:"description = "Asosiy frontend sahifa maketi"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 ==
 {% partial 'general/header'%}
 
@@ -50,7 +54,11 @@
 
       {#{% partial 'pages/blog2'%}#}
       
+<<<<<<< HEAD
           {#{% partial 'pages/interaktiv'%}#}
+=======
+          {% partial 'pages/interaktiv'%}
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
       
         {% partial 'pages/client-section'%}
       
@@ -69,7 +77,11 @@
 
 </div><!-- page end -->
 
+<<<<<<< HEAD
 {% partial 'general/footer'%}";s:5:"mtime";i:1599831519;s:6:"markup";s:1350:"{% partial 'general/header'%}
+=======
+{% partial 'general/footer'%}";s:5:"mtime";i:1599645668;s:6:"markup";s:1346:"{% partial 'general/header'%}
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
 <body>
 
@@ -119,7 +131,11 @@
 
       {#{% partial 'pages/blog2'%}#}
       
+<<<<<<< HEAD
           {#{% partial 'pages/interaktiv'%}#}
+=======
+          {% partial 'pages/interaktiv'%}
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
       
         {% partial 'pages/client-section'%}
       

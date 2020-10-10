@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:16:"pages/footer.htm";a:7:{s:8:"fileName";s:16:"pages/footer.htm";s:7:"content";s:4268:"description = "Sayt tag qismi"
+=======
+1599732487a:1:{s:16:"pages/footer.htm";a:7:{s:8:"fileName";s:16:"pages/footer.htm";s:7:"content";s:4268:"description = "Sayt tag qismi"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
 [viewBag]
 ==

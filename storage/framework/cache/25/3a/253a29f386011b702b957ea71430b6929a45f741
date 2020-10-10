@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:17:"pages/top-bar.htm";a:7:{s:8:"fileName";s:17:"pages/top-bar.htm";s:7:"content";s:2274:"description = "Headdagi kichik bo'lak"
+=======
+1599732005a:1:{s:17:"pages/top-bar.htm";a:7:{s:8:"fileName";s:17:"pages/top-bar.htm";s:7:"content";s:2274:"description = "Headdagi kichik bo'lak"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
 [viewBag]
 ==

@@ -1,17 +1,15 @@
+description = "Tanlash bo'lagi sayt o'rtasi kotta"
+
 [viewBag]
 
-[builderList builderListWayChoose]
-modelClass = "Raxmatilla\AxborotMakoni\Models\AxborotMakoni"
-scope = "-"
-scopeValue = "{{ :scope }}"
-displayColumn = "title"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
-sortColumn = "created_at"
-sortDirection = "asc"
+[AxborotCompoment]
+display = 3
+sort = "created_at desc"
 ==
+<!-- Axborot xizmati uchun component -->
+  {% set axborot = AxborotCompoment.axborot %}
+<!-- Axborotlarni soni -->
+  {% set axborotcount = AxborotCompoment.axborotcount %}
 <style>
     .avatar {
         vertical-align: middle;
@@ -29,8 +27,8 @@ sortDirection = "asc"
                         <!-- section title -->
                         <div class="section-title title-style-center_text">
                             <div class="title-header">
-                                <h5>OTM AXBOROT XIZMATI</h5>
-                                <h3 class="title">BOSHQA YANGILIKLAR VA QIZIQARLI MAQOLALAR</h3>
+                                <h5>{{"OTM AXBOROT XIZMATI"|_}}</h5>
+                                <h3 class="title">{{"BOSHQA YANGILIKLAR VA QIZIQARLI MAQOLALAR"|_}}</h3>
                             </div>
                             <div class="heading-seperator"><span></span></div>
                         </div><!-- section title end -->
@@ -61,7 +59,7 @@ sortDirection = "asc"
                                                 
                                                 <div class="featured-content " style="width: 200px;margin-right: 460px;bottom: 10px;background: white;border-color: #ff4f01;border-style: solid;">
                                                     <div class="featured-title">
-                                                        <h5>120 ta</h5>
+                                                        <h5>{{axborotcount}} ta</h5>
                                                     </div>
                                                     <div class="featured-desc">
                                                         <p>Ma'lumotlar ko'lami</p>
@@ -74,17 +72,11 @@ sortDirection = "asc"
                                                 <h4 class="font-weight-normal"><strong style="color: #ff4f01;"> Axborot makoni</strong> bu talabalarga qiziqarli va ilmiy ko'rinishdagi yangilik va maqolalarni chop etib boriladigan rukun.</p>
                                                 <div class="pt-10 pb-30 res-991-pb-15">
                                                     <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor">
-                                                    
-                                                        
-                                                        {% set records = builderListWayChoose.records %}
-                                                        {% set displayColumn = builderListWayChoose.displayColumn %}
-                                                        {% set noRecordsMessage = builderListWayChoose.noRecordsMessage %}
-                                                        {% set detailsPage = builderListWayChoose.detailsPage %}
-                                                        {% set detailsKeyColumn = builderListWayChoose.detailsKeyColumn %}
-                                                        {% set detailsUrlParameter = builderListWayChoose.detailsUrlParameter %}
+                                                                                                    
+                                                                                                     
     
     
-                                                        {% for record in records %}
+                                                        {% for record in axborot %}
          
 
                                                             <li><i class="fa fa-arrow-circle-right"></i><div class="ttm-list-li-content"><b><a href="{{record.slug}}">{{record.title}}</a></b></div> <br> <strong style="color: #ff4f01;"> Chop etildi: </strong> {{record.created_at|date('Y-m-d')}} <strong style="color: #ff4f01;">Chop etuvchi:</strong> {{record.user.first_name }} {{record.user.last_name }} <img src=" {{ record.user.avatar.getThumb(80,80, 'crop') }}" alt="Avatar" class="avatar"> 
@@ -159,7 +151,7 @@ sortDirection = "asc"
                                 <!-- content-inner -->
                                 <div class="content-inner">
                                     <div class="row">
-                                         <div class="col-md-4">
+                                         <div class="col-md-6">
                                             <div class="pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20">
                                                 <h4 class="font-weight-normal"><strong style="color: #ff4f01;"> "So'ngi majmualar"</strong> Saytga joylashtirilgan eng so'ngi majmualar</p>
                                                 <div class="pt-10 pb-30 res-991-pb-15">
@@ -183,7 +175,7 @@ sortDirection = "asc"
                                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark" href="#">{{ "Barcha maqolalarni ko'rish"|_ }}</a>
                                             </div>
                                         </div>
-                                         <div class="col-md-4" style="background: #f4f6f9 !important;">
+                                         <div class="col-md-6" style="background: #f4f6f9 !important;">
                                             <div class="pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20">
                                                 <h4 class="font-weight-normal"><strong style="color: #ff4f01;"> "Eng ko'p ko'rilgan"</strong> Foydalanuvchilar tomonidna eng ko'p etibor berilgan majmualar.</p>
                                                 <div class="pt-10 pb-30 res-991-pb-15">
@@ -207,30 +199,7 @@ sortDirection = "asc"
                                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark" href="#">{{ "Barcha maqolalarni ko'rish"|_ }}</a>
                                             </div>
                                         </div>
-                                         <div class="col-md-4">
-                                            <div class="pt-15 pl-15 pr-15 pb-15 res-991-p-0 res-991-mt-20">
-                                                <h4 class="font-weight-normal"><strong style="color: #ff4f01;"> "Eng ko'p yuklab olingan"</strong> Foydalanuvchilar tomonidan eng ko'p yuklab olingan majmualar.</p>
-                                                <div class="pt-10 pb-30 res-991-pb-15">
-                                                    <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor">
-                                                        <li><i class="fa fa-arrow-circle-right"></i><div class="ttm-list-li-content"><b><a href="#">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style="color: #ff4f01;"> Chop etildi: </strong> 2020-avgust <strong style="color: #ff4f01;">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src="http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png" alt="Avatar" class="avatar"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                             <li><i class="fa fa-arrow-circle-right"></i><div class="ttm-list-li-content"><b><a href="#">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style="color: #ff4f01;"> Chop etildi: </strong> 2020-avgust <strong style="color: #ff4f01;">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src="http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png" alt="Avatar" class="avatar"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                           <li><i class="fa fa-arrow-circle-right"></i><div class="ttm-list-li-content"><b><a href="#">Popular Online Courses Popular Online Courses Popular Online Courses</a></b></div> <br> <strong style="color: #ff4f01;"> Chop etildi: </strong> 2020-avgust <strong style="color: #ff4f01;">Chop etuvchi:</strong> Fayziyev Raxmatilla  <img src="http://www.staroceans.org.s3-website-us-east-1.amazonaws.com/w3c/img_avatar.png" alt="Avatar" class="avatar"> 
-                                                        </li>
-                                                        <hr>
-                                                        
-                                                      
-                                                    
-                                                    </ul>
-                                                </div>
-                                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark" href="#">{{ "Barcha maqolalarni ko'rish"|_ }}</a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div><!-- content-inner end-->
                             </div>

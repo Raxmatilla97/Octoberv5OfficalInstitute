@@ -1,14 +1,19 @@
+description = "Yangiliklar qismi"
+
 [viewBag]
 
 [newsPosts]
 pageNumber = "{{ :page }}"
 postsPerPage = 10
-noPostsMessage = "<h3>Kechirasiz hali saytga yangilik kiritilmagan!</h3>"
+noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
 postFeatured = 0
 postPage = "home"
 categoryPage = "home"
 ==
+{% set posts = newsPosts.posts %}
+
+
 <!--blog-section-->
         <section class="ttm-row blog-section bg-img2 ttm-bgcolor-grey ttm-bg ttm-bgimage-yes clearfix">
             <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
@@ -32,7 +37,7 @@ categoryPage = "home"
                 <!-- slick_slider -->
                 <div class="row slick_slider" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1300,"settings":{"slidesToShow": 3}},{"breakpoint":950,"settings":{"slidesToShow": 2}}, {"breakpoint":540,"settings":{"slidesToShow": 1}}]}'>
                    
-                    {% set posts = newsPosts.posts %}
+                   
             {% for post in posts %}
                     <div class="ttm-box-col-wrapper col-lg-4">
                                                    

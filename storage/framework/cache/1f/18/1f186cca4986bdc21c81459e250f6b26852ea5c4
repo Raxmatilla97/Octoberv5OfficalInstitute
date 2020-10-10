@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:23:"pages/banner-slider.htm";a:7:{s:8:"fileName";s:23:"pages/banner-slider.htm";s:7:"content";s:4265:"description = "Eng yuqori qismdagi slider bannerlari"
+=======
+1599732005a:1:{s:23:"pages/banner-slider.htm";a:7:{s:8:"fileName";s:23:"pages/banner-slider.htm";s:7:"content";s:4179:"description = "Eng yuqori qismdagi slider bannerlari"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
 [viewBag]
 ==
@@ -13,7 +17,11 @@
                         <div class="col-lg-12">
                             <div class="banner-text ttm-textcolor-white text-center">
                                 <div class="logo-icon slideInUp animated mx-auto">
+<<<<<<< HEAD
                                     <img class="img-fluid d-inline-block lazyload "  data-src="{{ 'assets/images/oq_logo.png'|theme |resize ( { mode: 'crop', quality: '80' }) }}" style="width: 200px;">
+=======
+                                    <img class="img-fluid d-inline-block lazyload "  data-src="{{ 'assets/images/oq_logo.png'|theme }}" style="width: 200px;">
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
                                 </div>
                                 <div class="slideInUp animated text font-weight-normal mt-10"><strong>OLD SITE:institut saytining eski versiyasini quyidagi havola orqali ishlatishingiz mumkin. <a href="#" ><span class="ttm-textcolor-skincolor">BU YERGA!</span></a></strong>  </div>  
                                 <div class="mt-10 mb-15">
@@ -32,7 +40,11 @@
     </div>
     <!-- banner-slide -->
     <div class="banner-slide ">
+<<<<<<< HEAD
         <img class="img-fluid lazyload " data-src="{{ 'assets/images/slides/korona_virus.jpg'|theme |resize ( { mode: 'crop', quality: '80' }) }}" alt="slider-image"/>
+=======
+        <img class="img-fluid lazyload " data-src="{{ 'assets/images/slides/korona_virus.jpg'|theme }}" alt="slider-image"/>
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         <div class="banner-caption">
             <div class="info">
                 <div class="container">
@@ -57,7 +69,11 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 </div>";s:5:"mtime";i:1599831585;s:6:"markup";s:4193:"<div class="banner-slider slick_slider slick-arrows-style1" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":true, "autoplay":true, "centerMode":true, "centerPadding":0, "infinite":true, "initialSlide":2, "responsive": [{"breakpoint":870,"settings":{"slidesToShow": 1}} , {"breakpoint":525,"settings":{"slidesToShow": 1}}]}'>
+=======
+</div>";s:5:"mtime";i:1599462207;s:6:"markup";s:4107:"<div class="banner-slider slick_slider slick-arrows-style1" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":true, "autoplay":true, "centerMode":true, "centerPadding":0, "infinite":true, "initialSlide":2, "responsive": [{"breakpoint":870,"settings":{"slidesToShow": 1}} , {"breakpoint":525,"settings":{"slidesToShow": 1}}]}'>
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
     <!-- banner-slide -->
     <div class="banner-slide">
         <img class="img-fluid lazyload"  data-src="{{ 'assets/images/slides/tvchdpi.jpg'|theme }}" alt="slider-image" />
@@ -68,7 +84,11 @@
                         <div class="col-lg-12">
                             <div class="banner-text ttm-textcolor-white text-center">
                                 <div class="logo-icon slideInUp animated mx-auto">
+<<<<<<< HEAD
                                     <img class="img-fluid d-inline-block lazyload "  data-src="{{ 'assets/images/oq_logo.png'|theme |resize ( { mode: 'crop', quality: '80' }) }}" style="width: 200px;">
+=======
+                                    <img class="img-fluid d-inline-block lazyload "  data-src="{{ 'assets/images/oq_logo.png'|theme }}" style="width: 200px;">
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
                                 </div>
                                 <div class="slideInUp animated text font-weight-normal mt-10"><strong>OLD SITE:institut saytining eski versiyasini quyidagi havola orqali ishlatishingiz mumkin. <a href="#" ><span class="ttm-textcolor-skincolor">BU YERGA!</span></a></strong>  </div>  
                                 <div class="mt-10 mb-15">
@@ -87,7 +107,11 @@
     </div>
     <!-- banner-slide -->
     <div class="banner-slide ">
+<<<<<<< HEAD
         <img class="img-fluid lazyload " data-src="{{ 'assets/images/slides/korona_virus.jpg'|theme |resize ( { mode: 'crop', quality: '80' }) }}" alt="slider-image"/>
+=======
+        <img class="img-fluid lazyload " data-src="{{ 'assets/images/slides/korona_virus.jpg'|theme }}" alt="slider-image"/>
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
         <div class="banner-caption">
             <div class="info">
                 <div class="container">

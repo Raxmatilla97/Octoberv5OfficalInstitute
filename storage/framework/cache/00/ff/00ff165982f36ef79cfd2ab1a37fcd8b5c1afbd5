@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:8:"test.htm";a:11:{s:8:"fileName";s:8:"test.htm";s:7:"content";s:286:"title = "test"
+=======
+1599732789a:1:{s:8:"test.htm";a:11:{s:8:"fileName";s:8:"test.htm";s:7:"content";s:286:"title = "test"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 url = "/test"
 layout = "Sahifalar-test"
 is_hidden = 0

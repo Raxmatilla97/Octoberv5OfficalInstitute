@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1599832188a:1:{s:20:"pages/main-menyu.htm";a:7:{s:8:"fileName";s:20:"pages/main-menyu.htm";s:7:"content";s:39227:"description = "Menyu qismi"
+=======
+1599732005a:1:{s:20:"pages/main-menyu.htm";a:7:{s:8:"fileName";s:20:"pages/main-menyu.htm";s:7:"content";s:39227:"description = "Menyu qismi"
+>>>>>>> dc237e2a43e4059c2aa20210d47d654d5ea0e8ef
 
 [viewBag]
 ==
